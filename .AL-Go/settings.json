@@ -3,6 +3,7 @@
   "appFolders": [],
   "testFolders": [],
   "bcptTestFolders": [],
+  "failOn": "warning",
   "enableCodeCop": true,
   "enablePerTenantExtensionCop": true,
   "enableUICop": true

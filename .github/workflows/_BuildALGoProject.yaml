@@ -135,7 +135,7 @@ jobs:
           baselineWorkflowRunId: ${{ inputs.baselineWorkflowRunId }}
 
       - name: Build
-        uses: microsoft/AL-Go-Actions/RunPipeline@v4.1
+        uses: Arthurvdv/AL-Go-Actions/RunPipeline@v4.1
         env:
           Secrets: '${{ steps.ReadSecrets.outputs.Secrets }}'
           BuildMode: ${{ inputs.buildMode }}

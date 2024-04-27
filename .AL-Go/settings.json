@@ -9,5 +9,8 @@
   "failOn": "warning",
   "enableCodeCop": true,
   "enablePerTenantExtensionCop": true,
-  "enableUICop": true
+  "enableUICop": true,
+  "customCodeCops": [
+    "https://github.com/StefanMaron/BusinessCentral.LinterCop/releases/latest/download/BusinessCentral.LinterCop.current.dll"
+  ]
 }
